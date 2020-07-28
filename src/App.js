@@ -1,5 +1,4 @@
 import React ,{Component} from 'react';
-import Main from './components/Main.jsx'
 import Dashboard from './Pages/Dashboard'
 import Login from './Pages/Login'
 import {
