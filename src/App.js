@@ -4,9 +4,9 @@ import Dashboard from './Pages/Dashboard'
 import Login from './Pages/Login'
 import {
     BrowserRouter as Router,
-    Switch,
+
     Route,
-    Link
+    
   } from "react-router-dom";
 
 import {GithubProvider} from './Context/GithubContext'

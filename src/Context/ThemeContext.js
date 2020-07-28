@@ -1,4 +1,4 @@
-import React, { useState,createContext , useReducer} from  'react';
+import React, { createContext , useReducer} from  'react';
 import {AgeReducer} from './reducers';
 export const ThemeContext = createContext()
 
