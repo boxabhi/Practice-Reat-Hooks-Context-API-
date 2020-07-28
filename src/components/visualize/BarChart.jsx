@@ -9,7 +9,7 @@ function BarChart(props) {
     charts(FusionCharts);
     const {repo} = useContext(GithubContent)
     
-  const index = 0
+  
     const data  = repo.map(re =>{
       
       return {'lable' : re.name , 'value' : re.size}

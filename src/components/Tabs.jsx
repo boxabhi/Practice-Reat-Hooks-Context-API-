@@ -13,7 +13,7 @@ function Tabs(props) {
            
            <div className="container p-4 mx-auto">
                 <div className="d-flex">
-                <img src={info.avatar_url} className="img-fluid rounded-circle" style={{height:'100px', width:'100px'}}></img>
+                <img src={info.avatar_url} className="img-fluid rounded-circle" alt="user" style={{height:'100px', width:'100px'}}></img>
 
         <div className="ml-4">
                 <h4>{info.login}</h4>

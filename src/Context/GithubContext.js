@@ -249,24 +249,23 @@ export const GithubProvider = (props)=>{
                 })
             }
 
+            async function function_set_repo(url){
+                await fetch(url)
+                .then(response => response.json())
+                .then(result =>{
+                    setRepo(result)
+                })
+            }
+
             useEffect(()=>{
                 const url = `https://api.github.com/users/${user}`
                 const repo_url = `https://api.github.com/users/${user}/repos`
                 
                 
                 function_set_Info(url)
+                function_set_repo(repo_url)
 
-                // fetch(url)
-                // .then(response => response.json())
-                // .then(result =>{
-                //     setInfo(result)
-                // })
-        
-                // .fetch(repo_url)
-                // .then(response => response.json())
-                // .then(result => {
-                //     setRepo(result)
-                // })
+                
         
              },[user])
         

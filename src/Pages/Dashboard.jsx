@@ -6,7 +6,7 @@ import Form from '../components/Form'
 function Dashboard(props) {
     return (
         <div className="container">
-            <h1>GitFinder 🔥🔥</h1>
+            <h1>GitFinder</h1>
             
             <Form/>
 
